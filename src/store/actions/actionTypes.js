@@ -1,0 +1,11 @@
+export const SET_VALUE_BALANCE = 'SET_VALUE_BALANCE';
+export const SET_VISIBILITY_BALANCE = 'SET_VISIBILITY_BALANCE';
+export const CARREGA_EMPRESA = 'CARREGA_EMPRESA';
+export const SET_SENHA_MODAL = 'SET_SENHA_MODAL';
+export const SET_MSG_TOAST = 'SET_MSG_TOAST';
+export const SET_NOME = 'SET_NOME';
+export const SET_ID = 'SET_ID';
+export const SET_ENDEREÇO = 'SET_ENDEREÇO';
+export const SET_CLIENT = 'SET_CLIENT';
+export const SET_ADDRESS_CLIENT = 'SET_ADDRESS_CLIENT';
+export const UPTDATE_CLIENT = 'UPTDATE_CLIENT';

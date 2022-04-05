@@ -1,0 +1,39 @@
+import {StyleSheet} from 'react-native';
+import {responsiveFontSize} from 'react-native-responsive-dimensions';
+
+export const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+  },
+  header: {
+    height: '10%',
+    alignItems: 'center',
+  },
+  content: {
+    height: '70%',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  textWithDrawComplete: {
+    textAlign: 'center',
+    fontFamily: 'Montserrat-SemiBold',
+    fontSize: responsiveFontSize(2.5),
+    paddingTop: 10,
+    paddingHorizontal: 100,
+  },
+  textWithDrawComplete2: {
+    marginTop: 20,
+    fontFamily: 'Montserrat-Medium',
+    fontSize: responsiveFontSize(2.2),
+  },
+  textWithDrawComplete3: {
+    fontFamily: 'Montserrat-SemiBold',
+    color: '#007f0b',
+    fontSize: responsiveFontSize(2.2),
+  },
+  footer: {
+    height: '20%',
+    justifyContent: 'flex-start',
+    alignItems: 'center',
+  },
+});
